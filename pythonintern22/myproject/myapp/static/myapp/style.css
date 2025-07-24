@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: #f4f4f4;
+}
+h2 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    height:550px;
+    width:1000px;
+    margin-left:200px;
+    display:flex;
+    flex-direction:column;
+}
+.container1{
+        height:550px;
+        width:1000px;
+        margin-left:200px;
+        display:flex;
+        flex-direction:column;
+}
+form {
+    padding-right:20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    width: 400px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+input {
+    width:350px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.ang{
+    height:100px;
+    width:150px;
+}
+.ang1{
+    height:100px;
+    width:150px;
+}
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    background: #4CAF50;
+}
+a:hover {
+    opacity: 0.9;
+}
+.btn-danger {
+    background: red;
+}
+.btn-danger:hover {
+    background: darkred;
+}
